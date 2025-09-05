@@ -1,0 +1,24 @@
+# Global requirements for APPS2 project
+# These are shared dependencies across all apps
+
+# Core Python packages
+python-dotenv==1.0.0
+click==8.1.7
+
+# Web framework (if needed)
+flask==3.0.0
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.13.0
+
+# Utilities
+requests==2.31.0
+pydantic==2.5.0
+
+# Development tools
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
